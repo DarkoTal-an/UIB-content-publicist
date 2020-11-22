@@ -1,0 +1,41 @@
+img {
+    width: 62px;
+    height: 62px;
+}
+
+.header-img {
+    display: block;
+    float: inline-end;
+}
+
+/* removing the bullets befoer the UL items */
+ul.no-bullets {
+    list-style-type: none;
+}
+div {
+    border: 3px solid rgba(0, 0, 0, 0.26);
+    background-image: url(icons/ZIOzyqZ0uvcq_1280x1280_KaMXZQjO.jpg);
+
+    /* centering the title */
+}
+.center {
+    text-align: center;
+}
+
+
+.image {
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+.container:hover .image {
+opacity: 0.3;
+}
+
+/* .container:hover .middle {
+opacity: 1;
+} */
+
